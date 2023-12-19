@@ -1,0 +1,1 @@
+cmd_/media/sf_VM/Repos/Assignment-3/hello_module/helloModule.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /media/sf_VM/Repos/Assignment-3/hello_module/helloModule.ko /media/sf_VM/Repos/Assignment-3/hello_module/helloModule.o /media/sf_VM/Repos/Assignment-3/hello_module/helloModule.mod.o;  true
